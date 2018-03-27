@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Laravel Portugal Framework PHP Vue VueJS Vue.js Web Application Development Programming Cloud">
+    <meta name="description" content="Laravel Portugal Community Website">
     <meta name="author" content="Laravel Portugal">
 
     <title>Laravel Portugal</title>
