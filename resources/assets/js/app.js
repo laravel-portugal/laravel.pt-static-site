@@ -22,7 +22,7 @@ const app = new Vue({
     el: '#app',
 
     methods: {
-        visitExternalUrl(event){
+        visitExternalUrl(event) {
             window.open(event.target.dataset.url, '_blank')
         }
     }
