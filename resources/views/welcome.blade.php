@@ -41,7 +41,7 @@
                     <p>
                         Os nossos membros discutem tópicos da comunidade, em direto, no Youtube.<br>
                         <strong>Todas as sextas-feiras, às 21h!</strong><br>
-                        <small>Também podes ouvir no <a href="https://laravelportugal.simplecast.fm/" target="_blank" rel="nofollow">Simplecast</a>.</small>
+                        <small>Também podes ouvir em formato <a href="https://laravelportugal.simplecast.fm/" target="_blank" rel="nofollow">podcast</a>.</small>
                     </p>
                 </div>
 
