@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','HomepageController@index');
+
+Route::get('/community-links','CommunityLinks\CommunityLinksController@index');

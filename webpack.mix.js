@@ -1,5 +1,3 @@
-let mix = require('laravel-mix');
-
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -11,7 +9,30 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.version();
+let mix = require('laravel-mix');
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+const tailwindcss = require('tailwindcss');
+
+
+mix.sass('resources/assets/sass/app.scss', 'public/css/bootstrap.css')
+    .postCss(__dirname + '/resources/assets/css/tailwind.css', 'public/css/tailwind.css',
+        [
+            tailwindcss( __dirname + '/tailwind.js'),
+        ]
+    ).options({
+        processCssUrls: false,
+        sourceMap: 'inline'
+    })
+
+
+mix
+    .js('resources/assets/js/index.js', 'public/js')
+    .js('resources/assets/js/community-links/index.js', 'public/js/community-links')
+
+
+if (!mix.config.inProduction){
+    //mix.sourceMaps()
+}
+
+mix.version()
+
