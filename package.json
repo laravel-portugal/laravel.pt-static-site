@@ -11,15 +11,16 @@
     },
     "devDependencies": {
         "axios": "^0.18",
-        "bootstrap": "^4.0.0",
-        "popper.js": "^1.12",
+        "bootstrap": "^4.1.1",
         "cross-env": "^5.1",
         "jquery": "^3.2",
         "laravel-mix": "^2.0",
         "lodash": "^4.17.4",
+        "popper.js": "^1.14.3",
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "npm": "^5.8.0"
+        "npm": "^5.8.0",
+        "tailwindcss": "^0.6.1"
     }
 }
