@@ -1,3 +1,23 @@
 @tailwind preflight;
 
+.btn {
+    @apply px-2 py-2 no-underline flex items-center mt-4 rounded-full;
+}
+
 @tailwind utilities;
+
+body {
+    font-family: 'Source Sans Pro';
+}
+
+.logo, h3 {
+    font-family: 'Poppins';
+}
+
+.laravel-logo {
+    z-index: -1;
+}
+
+p {
+    @apply leading-normal;
+}

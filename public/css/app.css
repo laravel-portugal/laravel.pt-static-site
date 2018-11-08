@@ -493,6 +493,22 @@ table {
   border-collapse: collapse;
 }
 
+.btn {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+  border-radius: 9999px;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;
@@ -6167,6 +6183,23 @@ table {
 
 .z-auto {
   z-index: auto;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+}
+
+.logo,
+h3 {
+  font-family: 'Poppins';
+}
+
+.laravel-logo {
+  z-index: -1;
+}
+
+p {
+  line-height: 1.5;
 }
 
 @media (min-width: 576px) {
