@@ -34,7 +34,7 @@
                 <div class="flex-1 flex flex-col text-center mr-2">
                     <h3 class="text-2xl text-grey-darker font-semibold">LaravelPT Live</h3>
                     <p class="text-lg text-grey-darker mt-6 flex-1 w-3/4 mx-auto">Os nossos membros discutem tópicos da comunidade, em direto, no Youtube. Todas as sextas-feiras, às 21h00!</p>
-                    <a href="#" class="btn bg-blue text-white mx-auto hover:bg-blue-dark">
+                    <a href="https://www.youtube.com/channel/UCIbMW1h5VReAQAwJGi_zT3w" target="_blank" class="btn bg-blue text-white mx-auto hover:bg-blue-dark">
                         @include('partials.play')
                         <span class="tracking-wide font-semibold text-lg mr-2">ASSISTIR</span>
                     </a>
@@ -43,7 +43,7 @@
                 <div class="flex-1 flex flex-col text-center ml-2 my-16 md:my-0">
                     <h3 class="text-2xl text-grey-darker font-semibold">Junta-te a nós no Slack!</h3>
                     <p class="text-lg text-grey-darker mt-6 flex-1">Convidamos-te a entrar  no nosso canal no Slack, partilhares as tuas experiências, a expores as tuas dúvidas e desafiamos-te a criar amizades na melhor comunidade portuguesa de Laravel!</p>
-                    <a href="#" class="btn bg-blue text-white mx-auto hover:bg-blue-dark">
+                    <a href="https://join.slack.com/t/laravel-portugal/shared_invite/enQtMzM3NTA5NjMxMDE0LTkwYjI1MGQwM2U0NzQxYzVkNmY2ZTE2ZjFjMmRhMDlkODY2MDRiNDA2NTQwOGU4ZDMwOGJlYTY4NTZjNDBiNzM" target="_blank" class="btn bg-blue text-white mx-auto hover:bg-blue-dark">
                         @include('partials.slack')
                         <span class="tracking-wide font-semibold text-lg mr-2">ADERIR</span>
                     </a>
