@@ -10,12 +10,24 @@ body {
     font-family: 'Source Sans Pro';
 }
 
+#app, .background {
+    max-width: 1200px;
+}
+
+.background {
+    max-height: 600px;
+}
+
 .logo, h3 {
     font-family: 'Poppins';
 }
 
 .laravel-logo {
     z-index: -1;
+}
+
+.cta {
+    @apply flex-1 flex flex-col text-center mr-2;
 }
 
 p {
