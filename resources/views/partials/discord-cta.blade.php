@@ -7,7 +7,7 @@
         Convidamos-te a entrar  no nosso canal no Discord, partilhares as tuas experiências, a expores as tuas dúvidas e desafiamos-te a criar amizades na melhor comunidade portuguesa de Laravel!
     </p>
 
-    <a href="https://discord.gg/dUpqpT" target="_blank" class="btn bg-blue text-white mx-auto hover:bg-blue-dark">
+    <a href="https://discord.gg/px7DFDb" target="_blank" class="btn bg-blue text-white mx-auto hover:bg-blue-dark">
         @include('partials.discord')
         <span class="tracking-wide font-semibold text-lg mr-2">ADERIR</span>
     </a>
