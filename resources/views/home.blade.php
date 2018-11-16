@@ -19,7 +19,6 @@
 </head>
 <body class="h-full text-black antialiased">
 
-
     <div id="app" class="mx-auto min-h-screen pt-6 relative overflow-hidden">
         {{-- Background SVG --}}
         @include('partials.background')
@@ -42,7 +41,6 @@
         </main>
 
     </div>
-
 
     <script src="{{ mix('/js/app.js') }}"></script>
 
