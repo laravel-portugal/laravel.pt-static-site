@@ -37,7 +37,7 @@
                 {{-- Left-side CTA --}}
                 @include('partials.youtube-cta')
                 {{-- Right-side CTA --}}
-                @include('partials.slack-cta')
+                @include('partials.discord-cta')
             </div>
         </main>
 
