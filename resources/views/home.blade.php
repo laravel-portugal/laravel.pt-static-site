@@ -17,6 +17,7 @@
 
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
 </head>
+
 <body class="h-full text-black antialiased">
 
     <div id="app" class="mx-auto min-h-screen pt-6 relative overflow-hidden">
