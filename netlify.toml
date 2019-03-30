@@ -1,6 +1,6 @@
 [build]
 
-command = "npm run production"
+command = "yarn run production"
 publish = "build_production"
 
 [context.production.environment]
