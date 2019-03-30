@@ -1,6 +1,9 @@
 let mix = require('laravel-mix');
 let build = require('./tasks/build.js');
 
+require('laravel-mix-purgecss');
+require('laravel-mix-tailwind');
+
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 mix.webpackConfig({
@@ -13,6 +16,9 @@ mix.webpackConfig({
 
 mix.js('source/_assets/js/main.js', 'js')
     .sass('source/_assets/sass/main.scss', 'css')
+    .tailwind('source/_assets/js/tailwind.js')
     .options({
         processCssUrls: false,
-    }).version();
+    })
+    .version()
+    .purgeCss();
