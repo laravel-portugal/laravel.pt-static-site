@@ -1,13 +1,15 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-/.idea
-/.vscode
-/.vagrant
-Homestead.json
-Homestead.yaml
+/build_local/
+/cache/
+/node_modules/
+/vendor/
+/.idea/
+/.vscode/
 npm-debug.log
 yarn-error.log
-.env
+
+# Optional ignores
+# /build_staging/
+# /build_production/
+# /source/assets/build/css/
+# /source/assets/build/fonts/
+# /source/assets/build/js/
