@@ -1,8 +1,10 @@
-@tailwind preflight;
+@tailwind base;
 
 .btn {
     @apply px-2 py-2 no-underline flex items-center mt-4 rounded-full;
 }
+
+@tailwind components;
 
 @tailwind utilities;
 

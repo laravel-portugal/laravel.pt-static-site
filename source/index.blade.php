@@ -10,8 +10,8 @@
 
         {{-- Main content --}}
         <main class="w-5/6 mx-auto mt-16">
-            <h2 class="logo text-grey-darkest text-center text-4xl sm:text-5xl">
-                Bem-vindo à comunidade portuguesa de <span class="text-red-light opacity-75">Laravel</span>
+            <h2 class="logo text-gray-700 text-center font-bold text-4xl sm:text-5xl">
+                Bem-vindo à comunidade portuguesa de <span class="text-red-500 opacity-75">Laravel</span>
             </h2>
 
             <div class="flex flex-col md:flex-row mt-20">

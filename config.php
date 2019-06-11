@@ -2,6 +2,6 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'http://laravel-portugal.development',
+    'baseUrl' => 'http://laravel.test',
     'collections' => [],
 ];

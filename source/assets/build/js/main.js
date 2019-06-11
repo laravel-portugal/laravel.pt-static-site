@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/josepostiga/Code/laravel-portugal/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /home/josepostiga/Code/laravel-portugal/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
+__webpack_require__(/*! /usr/src/app/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /usr/src/app/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
 
 
 /***/ })
