@@ -9,14 +9,20 @@
         @include('_layouts.partials.nav')
 
         {{-- Main content --}}
-        <main class="w-5/6 mx-auto mt-16">
+        <main class="w-full mt-16">
             <h2 class="logo text-gray-700 text-center font-bold text-4xl sm:text-5xl">
                 Bem-vindo à comunidade portuguesa de <span class="text-red-500 opacity-75">Laravel</span>
             </h2>
 
-            <div class="flex flex-col md:flex-row mt-20">
+            <div class="flex flex-col md:flex-row mt-20 mb-20">
+                {{-- Meetup CTA --}}
+                @include('_layouts.partials.meetup-cta')
+            </div>
+
+            <div class="flex flex-col md:flex-row mt-20 mb-20">
                 {{-- Left-side CTA --}}
                 @include('_layouts.partials.youtube-cta')
+
                 {{-- Right-side CTA --}}
                 @include('_layouts.partials.discord-cta')
             </div>
