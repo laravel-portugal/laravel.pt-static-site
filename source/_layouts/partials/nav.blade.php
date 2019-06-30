@@ -16,5 +16,9 @@
         <a href="https://github.com/laravel-portugal" target="_blank" class="text-gray-700 hover:text-blue-400">
             @include('_layouts.partials.github')
         </a>
+
+        <a href="https://www.meetup.com/pt-BR/Laravel-Portugal/" target="_blank" class="text-gray-700 hover:text-blue-400">
+            @include('_layouts.partials.meetup-sm')
+        </a>
     </div>
 </nav>
