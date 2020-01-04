@@ -15,11 +15,6 @@
             </h2>
 
             <div class="flex flex-col md:flex-row mt-20 mb-20">
-                {{-- Meetup CTA --}}
-                @include('_layouts.partials.meetup-cta')
-            </div>
-
-            <div class="flex flex-col md:flex-row mt-20 mb-20">
                 {{-- Left-side CTA --}}
                 @include('_layouts.partials.youtube-cta')
 
